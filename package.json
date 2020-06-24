@@ -1,0 +1,19 @@
+{
+	"name": "theme-flattown",
+	"displayName": "%displayName%",
+	"description": "%description%",
+	"version": "1.0.0",
+	"publisher": "Bruno Lerin",
+	"engines": {
+		"vscode": "*"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Flattown",
+				"uiTheme": "vs-dark",
+				"path": "./themes/flattown-color-theme.json"
+			}
+		]
+	}
+}
