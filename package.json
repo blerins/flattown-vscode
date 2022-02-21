@@ -2,8 +2,12 @@
 	"name": "theme-flattown",
 	"displayName": "%displayName%",
 	"description": "%description%",
-	"version": "1.0.0",
-	"publisher": "Bruno Lerin",
+	"version": "0.1.1",
+	"publisher": "blerins",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/blerins/flattown-vscode"
+	},
 	"engines": {
 		"vscode": "*"
 	},
@@ -15,5 +19,10 @@
 				"path": "./themes/flattown-color-theme.json"
 			}
 		]
+	},
+	"__metadata": {
+		"id": "3d93a966-0eb2-419c-b87d-264a1b25dfd9",
+		"publisherDisplayName": "blerins",
+		"publisherId": "9ede7a74-0230-4066-9dbc-cdba3f90756c"
 	}
 }

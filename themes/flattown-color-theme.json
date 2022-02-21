@@ -12,7 +12,7 @@
 		"button.background": "#75715E",
 		"editor.background": "#272822",
 		"editor.foreground": "#f8f8f2",
-		"selection.background": "#ccccc7",
+		"selection.background": "#4d72aa",
 		"editor.selectionHighlightBackground": "#575b6180",
 		"editor.selectionBackground": "#878b9180",
         "editor.wordHighlightBackground": "#4a4a7680",
@@ -43,7 +43,6 @@
 		"statusBar.debuggingBackground": "#75715E",
 		"activityBar.background": "#272822",
 		"activityBar.foreground": "#f8f8f2",
-		"activityBar.dropBackground": "#414339",
 		"sideBar.background": "#1e1f1c",
 		"sideBarSectionHeader.background": "#272822",
 		"pickerGroup.foreground": "#75715E",
@@ -91,19 +90,12 @@
 	},
 	"tokenColors": [
 		{
-			"settings": {
-				"background": "#272822",
-				"foreground": "#F8F8F2"
-			}
-		},
-		{
 			"scope": [
 				"meta.paragraph",
 				"meta.embedded",
 				"source.groovy.embedded"
 			],
 			"settings": {
-				"background": "#272822",
 				"foreground": "#F8F8F2"
 			}
 		},
@@ -283,7 +275,6 @@
 			"name": "Invalid",
 			"scope": "invalid",
 			"settings": {
-				"background": "#F92672",
 				"fontStyle": "",
 				"foreground": "#F8F8F0"
 			}
@@ -292,7 +283,6 @@
 			"name": "Invalid deprecated",
 			"scope": "invalid.deprecated",
 			"settings": {
-				"background": "#AE81FF",
 				"foreground": "#F8F8F0"
 			}
 		},
