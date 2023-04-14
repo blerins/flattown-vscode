@@ -1,16 +1,19 @@
 {
-	"name": "theme-flattown",
-	"displayName": "%displayName%",
-	"description": "%description%",
-	"version": "0.1.1",
+  "name": "theme-flattown",
+  "displayName": "Flattown Theme",
+  "description": "Flattown theme for Visual Studio Code",
+	"version": "0.2.0",
 	"publisher": "blerins",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/blerins/flattown-vscode"
 	},
-	"engines": {
-		"vscode": "*"
-	},
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Themes"
+  ],
 	"contributes": {
 		"themes": [
 			{
