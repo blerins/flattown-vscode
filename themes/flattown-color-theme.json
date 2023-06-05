@@ -53,10 +53,17 @@
 		{
 			"scope": [
 				"entity.name.type",
-				"entity.other.inherited-class"
+				"entity.other.inherited-class",
+				"entity.other.attribute-name.id.css"
 			],
 			"settings": {
 				"foreground": "#4276df",
+			}
+		},
+		{
+			"scope": "entity.other.attribute-name.class.css",
+			"settings": {
+				"foreground": "#af87d7",
 			}
 		},
 		{
@@ -128,6 +135,12 @@
 			"scope": "support.type",
 			"settings": {
 				"foreground": "#9ac1d8",
+			}
+		},
+		{
+			"scope": "support.type.property-name.css",
+			"settings": {
+				"foreground": "#c5c8c6",
 			}
 		},
 		{
