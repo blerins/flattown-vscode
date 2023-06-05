@@ -2,30 +2,30 @@
   "name": "theme-flattown",
   "displayName": "Flattown Theme",
   "description": "Flattown theme for Visual Studio Code",
-	"version": "0.2.0",
-	"publisher": "blerins",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/blerins/flattown-vscode"
-	},
+  "version": "0.3.0",
+  "publisher": "blerins",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blerins/flattown-vscode"
+  },
   "engines": {
     "vscode": "^1.77.0"
   },
   "categories": [
     "Themes"
   ],
-	"contributes": {
-		"themes": [
-			{
-				"label": "Flattown",
-				"uiTheme": "vs-dark",
-				"path": "./themes/flattown-color-theme.json"
-			}
-		]
-	},
-	"__metadata": {
-		"id": "3d93a966-0eb2-419c-b87d-264a1b25dfd9",
-		"publisherDisplayName": "blerins",
-		"publisherId": "9ede7a74-0230-4066-9dbc-cdba3f90756c"
-	}
+  "contributes": {
+    "themes": [
+      {
+        "label": "Flattown",
+        "uiTheme": "vs-dark",
+        "path": "./themes/flattown-color-theme.json"
+      }
+    ]
+  },
+  "__metadata": {
+    "id": "3d93a966-0eb2-419c-b87d-264a1b25dfd9",
+    "publisherDisplayName": "blerins",
+    "publisherId": "9ede7a74-0230-4066-9dbc-cdba3f90756c"
+  }
 }
